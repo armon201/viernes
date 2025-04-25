@@ -1,8 +1,8 @@
 package org.example.semanasanta;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Cofradia {
-    String nombre;
-    LocalDate fecha;
+    ArrayList<Cofrade> cofrades = new ArrayList<>();
 }
